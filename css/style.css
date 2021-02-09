@@ -1,4 +1,16 @@
-
+.logo {
+  float: top;
+  padding-top: 10px 30px;
+  margin-left: 15cm;
+  text-align: center;
+  } 
+  .heroPage{
+    background-image: url("../images/Splash2.webp");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+   }
 body {
     margin: 50px;
     height: 500vh;
@@ -23,56 +35,46 @@ button {
   margin: 10px;
   line-height: 350px;
   font-size: 40px; 
-
 }
 .button-nav {
-  padding: 10px 30px;
-  margin: 100px;
+  padding: 20px 30px;
   font-size: 30px;
   color:  darkslategray;
   height: 5%;
   width: 10%;
       }
-.left {
-    position: aboslute;
-    right: 0px;
-    width: 300px;
-}
+
 .button-nav:hover {
   background-color: rgb(102, 168, 223);
   color: white
 }
 
 .title{
-    display: flex;
-    justify-content: flex-end;
-    /* margin-left: 10%;
-    margin-right: 10%;  */
-    color: lightslategray;
-    font-size: 60px;  
+  display: flex;
+  justify-content: flex-end;
+  /* margin-left: 10%;
+  margin-right: 10%;  */
+  color: lightslategray;
+  font-size: 60px;  
 }
 .subheader {
     display: flex;
     justify-content: flex-end;
-    /* line-height: auto; */
+    line-height: 10cm;
     Color: lightslategray;
     font-size: 50px;
   }
- .logo {
-    float: top;
-    padding-top: 10px 30px;
-    margin-left: 8cm;
-    text-align: center;
-    }    
-    
+      
 /* Social Media icons */
-  
-*{ 
+
+
+*{  
   padding: 0;
   margin: 0;
   list-style: none;
   }
 ul {
+  display: flex;
   text-align: center;
   justify-content: center;
   min-height: 100vh;
@@ -154,10 +156,7 @@ ul li:hover .fab:nth-child(2){
     background-color: rgb(255, 255, 255);
   }
 
-  .heroPage{
-    background-image: url("../images/Splash2.webp");
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed;
-    background-position: center;
-   }
+
+   /* @media only screen and (max-width:600px){
+     .body
+   } */
