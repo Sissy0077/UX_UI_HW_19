@@ -1,10 +1,20 @@
+
 body {
     margin: 50px;
     height: 500vh;
     width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    padding: 5% 10%;
+    grid-auto-rows: minmax(100px, auto);
+  }
 button {
+  grid-column: 12;
   flex-wrap: wrap;
   border-radius: 25px; 
   border: 3px solid rgb(119, 136, 153);
@@ -36,51 +46,24 @@ button {
 .title{
     display: flex;
     justify-content: flex-end;
-    margin-left: 10%;
-    margin-right: 10%; 
+    /* margin-left: 10%;
+    margin-right: 10%;  */
     color: lightslategray;
     font-size: 60px;  
 }
 .subheader {
     display: flex;
     justify-content: flex-end;
-    margin-left: 10%;
-    Margin-right: 10%;
-    line-height: auto;
+    /* line-height: auto; */
     Color: lightslategray;
     font-size: 50px;
   }
-
  .logo {
     float: top;
     padding-top: 10px 30px;
-    margin-left: 2cm;
+    margin-left: 8cm;
     text-align: center;
     }    
-/* .flex-container {
-      display: flex;
-      background-color: none;
-      flex-wrap: wrap;
-    }
-    
-.flex-container > div {
-      background-color: #f1f1f1;
-      margin: 10px;
-      padding: 20px;
-      font-size: 30px;
-    }
-.grid-item {
-     flex-wrap: block;
-     border-radius: 25px; 
-     border: 3px solid rgb(119, 136, 153);
-     width: 400px;
-     height: 400px;
-     margin: 10px;
-     line-height: 350px;
-     font-size: 40px; 
-     flex-wrap: wrap;
-     color: rgb(119, 136, 153);
-        } */
     
 /* Social Media icons */
   
@@ -90,7 +73,6 @@ button {
   list-style: none;
   }
 ul {
-  display: flex;
   text-align: center;
   justify-content: center;
   min-height: 100vh;
