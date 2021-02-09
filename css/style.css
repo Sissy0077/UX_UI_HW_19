@@ -13,14 +13,7 @@ button {
   margin: 10px;
   line-height: 350px;
   font-size: 40px; 
-   color: rgb(119, 136, 153);
-  /* left: 200px 100px;
-  height: 100px;
-  width: 100px;
-  margin-left: 60px;
-  border-radius: 90px; 
-  flex-wrap: wrap;
-  margin-bottom: 20cm; */
+
 }
 .button-nav {
   padding: 10px 30px;
