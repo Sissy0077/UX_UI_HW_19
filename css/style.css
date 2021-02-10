@@ -18,6 +18,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
+
 .main-grid {
     display: grid;
     grid-template-columns: 12f;
@@ -25,45 +26,49 @@ body {
     padding: 5% 10%;
     grid-auto-rows: minmax(100px, auto);
   }
-button {
-  grid-column: 12;
-  flex-wrap: wrap;
-  border-radius: 25px; 
-  border: 3px solid rgb(119, 136, 153);
-  width: 400%;
-  margin: 400px;
-  line-height: 350px;
-  font-size: 40px; 
-  
-}
-
 .button-nav {
-  padding: 20px 30px;
-  font-size: 30px;
-  color:  darkslategray;
-  height: 5%;
-  width: 10%;
-      }
-
+    padding: 20px 30px;
+    font-size: 60px;
+    color:  darkslategray;
+    height: 5%;
+    width: 10%;
+        }
+  
 .button-nav:hover {
-  background-color: rgb(102, 168, 223);
-  color: white
-}
-
+    background-color: rgb(102, 168, 223);
+    color: white
+  }
+  
 .title{
-  display: flex;
-  justify-content: flex-end;
-  /* margin-left: 10%;
-  margin-right: 10%;  */
-  color: lightslategray;
-  font-size: 60px;  
-}
-.subheader {
     display: flex;
     justify-content: flex-end;
-    line-height: 10cm;
-    Color: rgb(13, 14, 15);
-    font-size: 50px;
+    /* margin-left: 10%;
+    margin-right: 10%;  */
+    color: lightslategray;
+    font-size: 60px;  
+  }
+.subheader {
+      display: flex;
+      justify-content: flex-end;
+      line-height: 10cm;
+      Color: rgb(13, 14, 15);
+      font-size: 50px;
+    }
+button {
+  /* grid-column: 4f; */
+  flex-wrap: wrap;
+  border-radius: 25px; 
+  border: 9px solid rgb(119, 136, 153);
+  width: 400px;
+  margin: 80px;
+  line-height: 50px;
+  font-size: 40px; 
+  }
+
+  .para {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
   }
       
 /* Social Media icons */
