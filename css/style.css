@@ -20,9 +20,9 @@ body {
 
 .main-grid {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: auto;
-    padding: 5% 10%;
+    grid-template-columns: 1f;
+    align-items: center;
+    align-content: center;
     grid-auto-rows: minmax(100px, auto);
   }
 button {
@@ -30,8 +30,7 @@ button {
   flex-wrap: wrap;
   border-radius: 25px; 
   border: 3px solid rgb(119, 136, 153);
-  width: 400px;
-  height: 400px;
+  width: 100%;
   margin: 10px;
   line-height: 350px;
   font-size: 40px; 
