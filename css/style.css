@@ -1,10 +1,10 @@
-.logo {
+.logo-container {
   float: top;
   padding-top: 10px 30px;
   margin-left: 15cm;
   text-align: center;
   } 
-  .heroPage{
+  .body{
     background-image: url("../images/Splash2.webp");
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -20,9 +20,9 @@ body {
 
 .main-grid {
     display: grid;
-    grid-template-columns: 1f;
-    align-items: center;
-    align-content: center;
+    grid-template-columns: 12f;
+    grid-template-columns: auto;
+    padding: 5% 10%;
     grid-auto-rows: minmax(100px, auto);
   }
 button {
@@ -30,8 +30,8 @@ button {
   flex-wrap: wrap;
   border-radius: 25px; 
   border: 3px solid rgb(119, 136, 153);
-  width: 100%;
-  margin: 10px;
+  width: 400%;
+  margin: 400px;
   line-height: 350px;
   font-size: 40px; 
   
