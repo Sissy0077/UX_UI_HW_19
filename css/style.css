@@ -42,8 +42,7 @@ body {
 .title{
     display: flex;
     justify-content: flex-end;
-    /* margin-left: 10%;
-    margin-right: 10%;  */
+    flex-direction:column;
     color: lightslategray;
     font-size: 60px;  
   }
