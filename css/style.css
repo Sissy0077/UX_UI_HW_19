@@ -38,14 +38,13 @@ body {
     color: white
   }
   
-.title{
+#heroHeader{
     display: flex;
     justify-content: flex-end;
-    flex-direction:column;
     color: lightslategray;
     font-size: 60px;  
   }
-.subheader {
+#subheader {
       display: flex;
       justify-content: flex-end;
       line-height: 10cm;
@@ -71,40 +70,41 @@ button {
       
 /* Social Media icons */
 
-
 *{  
   padding: 0;
   margin: 0;
   list-style: none;
   }
-ul {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  min-height: 100vh;
+  
+ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 
-ul li {
-  position: relative;
-  background: white;
-  width: 90px;
-  height: 90px;
-  margin: 0 20px;
-  border: 3px solid;
-  border-radius: 50%;
-  box-sizing: border-box;
-  cursor: pointer;
-  transition: .5s;
-  overflow: hidden;
+ul li{
+    position: relative;
+    background: white;
+    width: 90px;
+    height: 90px;
+    margin: 0 20px;
+    border: 3px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
   }
 
-ul li .fab {
-  font-size: 35px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: .5s;
+ul li .fab{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
   }
 ul li:nth-child(1){
   border-color:lightslategrey;
@@ -156,9 +156,9 @@ ul li:hover .fab:nth-child(2){
   opacity: 0;
   } 
 
-  body {
+  /* body {
     background-color: rgb(255, 255, 255);
-  }
+  } */
 
 
    /* @media only screen and (max-width:600px){
