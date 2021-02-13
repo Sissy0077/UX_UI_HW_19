@@ -18,24 +18,36 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-.main-grid {
+.header-grid {
     display: grid;
-    grid-template-columns: 12f;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 1fr, 1f;
     padding: 5% 10%;
     grid-auto-rows: minmax(100px, auto);
   }
+.title-grid{
+  display: grid;
+  padding: 5% 10%;
+  grid-auto-rows: minmax(50px, auto);
+}
+.main-navgrid{
+  display: grid;
+  padding: 5% 10%;
+  grid-auto-rows: minmax(100px, auto);
+
+}
 .button-nav {
     padding: 20px 30px;
     font-size: 60px;
     color:  darkslategray;
-    height: 5%;
-    width: 10%;
+    height: 10%;
+    width: 20%;
         }
   
 .button-nav:hover {
     background-color: rgb(102, 168, 223);
-    color: white
+    color: white;
+    height: 60%;
   }
   
 #heroHeader{
@@ -47,8 +59,8 @@ body {
 #subheader {
       display: flex;
       justify-content: flex-end;
-      line-height: 10cm;
-      Color: rgb(13, 14, 15);
+      line-height: 2cm;
+      Color: lightslategrey;
       font-size: 50px;
     }
 button {
